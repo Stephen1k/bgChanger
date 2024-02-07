@@ -44,7 +44,7 @@ export default function RandomColor() {
         <div className='colors'>
             
         <h3>{typeOfColor === "rgb" ? "RGB Color" : "HEX Color"}</h3>
-        <h1>{color}</h1>
+        <h1>: {color}</h1>
         
         </div>
     </div>
